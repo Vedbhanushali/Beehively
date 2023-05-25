@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(241, 214, 190);
+}
+#container {
+    background-color: rgb(191, 126, 255);
+    color: antiquewhite;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    /* border: 1px solid blueviolet; */
+    padding: 10px;
+}
+.logo {
+    width: 65px;
+    height: 65px;
+}
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+.nav-items > ul > li {
+    padding: 10px;
+
+}
+.card{
+    width: 200px;
+    border: 1px solid rgb(0, 7, 7);
+    margin: 10px;
+}
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card > img {
+    width: 100%;
+}
+
+.shimmer-card {
+    width: 200px;
+    height: 200px;
+    background: lightslategray;
+    margin: 20px;
+    border: 1px solid rgb(0, 7, 7); 
+}
